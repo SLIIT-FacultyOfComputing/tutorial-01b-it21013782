@@ -22,7 +22,7 @@ int main() {
   
   float distance,amount = 0;
 	
-	printf("Distance->  ");
+	printf("Distance ->  ");
 	scanf("%f",&distance);
 	
 	if(distance > 30){
