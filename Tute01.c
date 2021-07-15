@@ -5,18 +5,18 @@
 #include <stdio.h>
 
 int main() {
-  int num1,num2;
+  int mark1,mark2;
 	float sum=0,avg=0;
 	
-	printf("Input numbre 1 : ");
-	scanf("%d",&num1);
-	printf("input number 2 : ");
-	scanf("%d",&num2);
+	printf("Input mark of subject 1 : ");
+	scanf("%d",&mark1);
+	printf("input mark of subject 2 : ");
+	scanf("%d",&mark2);
 	
-	sum = num1 + num2;
+	sum = mark1 + mark2;
 	avg = sum / 2.0;
 	
-	printf("Average = %.2f",avg);
+	printf("Average of the two marks = %.2f",avg);
   return 0;
 }
 
